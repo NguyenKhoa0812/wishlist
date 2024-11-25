@@ -1,0 +1,85 @@
+
+
+
+nav {
+    background-color:gray;
+   width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+#inup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; 
+  }
+  
+  #inup a {
+    text-decoration: none; 
+    color: blue; 
+    font-weight: bold;
+  }
+
+  #Searchbar {
+    margin: 20px auto;         /* Căn giữa theo chiều ngang với margin auto */
+    max-width: 700px;          /* Giới hạn chiều rộng tối đa */
+    display: flex;             /* Sử dụng flexbox */
+    justify-content: center;   /* Căn giữa các phần tử con theo chiều ngang */
+    align-items: center;       /* Căn giữa các phần tử con theo chiều dọc (nếu có) */
+}
+
+ #click{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+ }
+ #insearch
+ {
+    
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+ }
+ #list{
+   
+    margin-bottom: 20px;
+    border: solid;
+    height: 30px;
+    align-items: center;  
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    padding:10px;
+ }
+ #rightlist{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #list2 {
+    height: auto;
+    padding: 10px;
+    border: solid;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;  /* Thêm space between để phân chia khoảng cách đều giữa các phần tử con */
+    align-items: center;            /* Căn giữa các phần tử theo chiều dọc */
+   
+}
+
+#rightlist2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
